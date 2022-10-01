@@ -1,0 +1,12 @@
+@use "../../../presets" as *;
+@use "../../../mixins" as *;
+
+.header {
+  // background-color: $color-bg-primary;
+  // св-во привязано к высоте экрана
+  display: flex;
+  // ставим блоки друг под другом
+  flex-direction: column;
+  // *высота блока header на весь экран
+  min-height: 100vh;
+}
